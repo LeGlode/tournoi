@@ -1,0 +1,79 @@
+gestion d’un tournoi (interclubs)
+
+3 interfaces : utilisateur - organisateur - calendrier
+vue principale : calendrier
+
+version mobile - version desktop/tablette
+
+archivage d’une saison/d’un tournoi
+
+date d’ouverture des inscriptions
+clôture des inscriptions
+
+constitutions des poules selon:
+la série demandée par chaque équipe
+les desiderata des joueurs : parties en semaine, le week-end, pas avant une certaine date
+règle de base, constitutions des poules au fur et à mesure de l’arrivée des inscriptions.
+
+Casuistique : nombre d’équipes insuffisant dans une poule
+
+constitutions définitives des poules :
+automatique -> quand il n’existe pas de nécessité de procéder de manière manuelle.
+manuelle -> poule numériquement déséquilibrée
+
+année du tournoi
+date début
+date finales
+
+3 séries :
+préfixe numérique 1xx, 2xx, 3xx
+double préfixe h1xx, h2xx, h3xx, f1xx, f2xx, f3xx, m1xx, m2xx, m3xx
+
+nombre de poules par séries
+
+chaque équipe:
+-------------
+pour chaque joueur nom prénom licence téléphone courriel 
+
+3 séries: autant de poules que possible.
+championnat:
+finale
+demi-finales
+quart-de-finales
+huitième-de-finales
+
+constitutions des parties:
+1er - dernier
+2ème - avant-dernier
+...
+
+-----------------------
+championnat de poules
+------------------------
+classements par points dynamiques
+valeur du forfait: 35-0 ? autre ? pendant le championnat de poule ? après.
+
+victoire: 
+
+saisie des scores : arbitre ? organisateur du championnat
+scores ? manche unique ? plusieurs manches ?
+https://ffpb.net/wp-content/uploads/2022/11/2-Reglements-Generaux-FFPB.pdf
+page 21 et suivantes
+
+report des parties -> gestion des créneaux
+
+notification aux joueurs :
+terrain non praticable
+intempéries
+autres: caravanes, travaux, 
+changement de lieu
+uniformes -> pantalons blanc par exemple
+protections
+
+---------------
+db : maria/mysql
+
+
+--------------
+
+technologies : php/nodejs, sass, html5, js
