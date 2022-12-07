@@ -63,12 +63,17 @@ page 21 et suivantes
 report des parties -> gestion des créneaux
 
 notification aux joueurs :
+calendrier des rencontres + noms adversaires + coordonnées
 terrain non praticable
 intempéries
 autres: caravanes, travaux, 
 changement de lieu
 uniformes -> pantalons blanc par exemple
 protections
+
+----------------------------
+Mécanismes de reports de parties + validation tournoi + notifications
+
 
 ---------------
 db : maria/mysql
